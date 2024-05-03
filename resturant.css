@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+      }
+    .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+
+  #welcome{ 
+      border: 0px solid black;
+      border-radius: 25px;
+      width: auto;
+      height: ;
+      text-align: center;
+      padding-top: 5px;
+      font-weight: bolder;
+      font-style: italic;
+      font-size: 22px;
+      background-color:white;
+      box-shadow: 10px 10px 5px black;
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+ 
+   /* Fade down */
+  @keyframes fade-down {
+    0%{
+      opacity: 0;
+      transform: translateY(-30px) scale(0.9);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0px) scale(1);
+    }
+  }
+
+  .fade-down{ animation: fade-down 0.5s 0.4s backwards;}
+    #carousel{
+    padding-top: 25px;
+    animation: fade-up 0.5s;
+              }
+
+  img{ height: 450px;}
+  .carousel-item img{ width: 100%;}
+
+
+
+  @keyframes fade-up {
+    0%{
+      opacity: 0;
+      transform: translateY(30px) scale(0.9);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0px) scale(1);
+    }
+  }
+
+  
+    #quality{
+    float: right; 
+    padding-bottom: 55px;
+            }
+
+    .shop{
+      font-weight: 50;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      
+       border:0px solid black;
+        border-radius: 5px;
+        height: auto;
+        background-color:gold;
+
+        color: black;
+       
+    }
+    .shop:hover{
+     
+    }
+    #foodrow{ border:0px solid black;
+      /* background: linear-gradient( 270deg, whitesmoke, lavender); */}
+      .items{  padding-left: 7px;}
+    .items img{
+        width: 100%;
+        height:150px;
+        margin-left: 8px;
+        animation: fade-up 0.5s 0.4s backwards;
+      }
+     
+   .carousel-item h2{
+      font-size: 55px;
+      color: ;
+      font-weight: bolder;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      animation: fade-down 5s infinite alternate;
+    }
+    @keyframes fade-down {
+      0%{
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+      }
+      100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+      }
+    }
+    #row2{border: 0px solid black;
+      height: 300px;
+       padding-top: 35px;
+       background: linear-gradient(120deg, aquamarine, aqua);
+     }
+     .footer{
+      margin-top: 50px; width: 100%;
+      background: linear-gradient(120deg, white,gainsboro);
+      background-size: cover;
+    } 
+      .row a{
+        font-weight: bold;
+        text-decoration: none;
+        color:teal;
+        
+      }
+      .row a:hover{ 
+        font-size:17px;
+        color:lightblue;
+      }
+      .footer h4{
+
+      }
+   
+
+    @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      [class*="col-"] {
+        width: 100%;
+        }
+        .shop{ font-size: 15px;
+                font-weight: bold;
+                height: auto; 
+              }
+              #quality h2{
+                padding-top: 25px;
+                font-size: 12px;
+              }
+         .carousel-item h2{ font-size: 30px;}
+         .carousel-item img{ width: 100%; height: auto;}
+        #row2{ border: 0px solid black;
+          height: auto;
+           background: linear-gradient(120deg, aquamarine, aqua);
+          }
+           #row2 h3{
+             font-size: 20px;
+           }
+       
+      }
+      @media only screen and (min-width: 600px) {
+        
+        .shop{ font-size: 17px;
+          font-weight: bold;
+          height: auto; }
+          h2{ font-size: 35px;}
+          #row2 h3{
+            font-size: 40px;
+          }
+          .carousel-item img{ width: 100%;}
+      }
+
+      h1{
+        font-weight: bolder;
+        font-family:'Times New Roman', Times, serif;
+      }
+
+      h4{
+        font-weight: 200;
+        font-family:'Courier New', Courier, monospace;
+      }
+
+      h6{
+        font-family: fantasy;
+      }
+
+      h3{
+        font-size: 43px;
+        font-family:sans-serif;
+        font-weight: bolder;
+      }
+
+      #footers{
+        color: white;
+        font-weight: bold;
+        text-decoration: underline;
+
+
+      }
+      
+      .cart{ 
+       
+        
+      }
+      .cart span{
+        color: white;
+      }
+      
+    
+   
+
+      
+  body{ background-color:;}
